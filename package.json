@@ -2,22 +2,13 @@
   "name": "innovate-accounts",
   "version": "1.0.0",
   "description": "Innovate: Digital Bank",
-  "private": true,
+  "main": "web.js",
   "engines": {
     "node": "14.x",
     "npm": "6.x"
   },
   "scripts": {
-    "start": "node server.js",
-    "start:cluster": "sl-run server/server.js",
-    "debug": "node --debug server/server.js",
-    "build": "npm run build:idt",
-    "idt:build": "node idt.js build",
-    "idt:test": "node idt.js test",
-    "idt:debug": "node idt.js debug",
-    "idt:run": "node idt.js run",
-    "idt:deploy": "node idt.js deploy",
-    "idt:install": "node idt.js install"
+    "start": "node server.js"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
@@ -28,8 +19,7 @@
     "mongoose": "^5.0.0-rc1",
     "request": "^2.83.0",
     "strong-supervisor": "^6.2.0",
-    "uuid": "^3.1.0",
-    "watson-developer-cloud": "^2.40.0"
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
     "body-parser": "*",
