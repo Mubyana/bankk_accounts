@@ -1,0 +1,35 @@
+{
+  "name": "innovate-accounts",
+  "version": "1.0.0",
+  "description": "Innovate: Digital Bank",
+  "main": "web.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "body-parser": "^1.17.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.15.3",
+    "jslint": "^0.12.0",
+    "mongoose": "^5.0.0-rc1",
+    "request": "^2.83.0",
+    "strong-supervisor": "^6.2.0",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "*",
+    "express": "^4.16.4",
+    "mongo": "*",
+    "chai": "^4.0.0",
+    "chalk": "^1.1.3",
+    "mocha": "^3.4.2",
+    "nyc": "^10.3.2",
+    "prompt-confirm": "^1.2.0",
+    "proxyquire": "^1.8.0"
+  }
+}
