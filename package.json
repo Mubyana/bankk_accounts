@@ -4,8 +4,7 @@
   "description": "Innovate: Digital Bank",
   "main": "web.js",
   "engines": {
-    "node": "14.x",
-    "npm": "6.x"
+    "node": "15.10.0"
   },
   "scripts": {
     "start": "node server.js"
@@ -18,7 +17,6 @@
     "jslint": "^0.12.0",
     "mongoose": "^5.0.0-rc1",
     "request": "^2.83.0",
-    "strong-supervisor": "^6.2.0",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
