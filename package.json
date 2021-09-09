@@ -4,7 +4,7 @@
   "description": "Innovate: Digital Bank",
   "main": "web.js",
   "engines": {
-    "node": "15.10.0"
+    "node": "14.x"
   },
   "scripts": {
     "start": "node server.js"
